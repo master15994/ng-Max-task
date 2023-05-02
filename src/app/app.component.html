@@ -1,7 +1,14 @@
 <form [formGroup]="formTyped">
+  <input type="text" formControlName="name" />
+  <input type="text" formControlName="course" />
+  <input type="checkbox" formControlName="isGratuated" />
+  <button (click)="subscribeOnForm()">Subscribe</button>
+</form>
+
+<!-- <form [formGroup]="formTyped">
   <input formControlName="name" type="text" />
   <input formControlName="last-name" type="text" />
 
   <input formControlName="isMale" type="checkbox" />
 </form>
-<button (click)="subscribeOnForm()">Subscribe</button>
+<button (click)="subscribeOnForm()">Subscribe</button> -->
